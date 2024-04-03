@@ -14,3 +14,6 @@ Si estoy actualizando:
     git add .
     git commit -m
     git push
+
+    Si me equivoque al poner el git remote usamos el comando:
+        git remote set-url origin url.correcta.aca
