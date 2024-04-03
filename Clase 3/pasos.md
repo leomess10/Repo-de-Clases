@@ -17,3 +17,6 @@ Si estoy actualizando:
 
     Si me equivoque al poner el git remote usamos el comando:
         git remote set-url origin url.correcta.aca
+
+github profe
+https://github.com/Matu-Dev-JS/clases_pwi_tn_abril_UTN/blob/main/clase-3/pasos.md
