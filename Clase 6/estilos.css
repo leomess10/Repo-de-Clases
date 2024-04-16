@@ -1,0 +1,16 @@
+body{/* selector de elementos */
+}
+h2{
+    color: rgb(83, 41, 123);
+    font-size: 50px;
+}
+.subtitulo-especial{/* selector de clases */
+    color: green;
+
+}
+*{
+    font-family: sans-serif !important; /* gana en jerarquia */
+} 
+ /* selector universal */
+ .subtitulo-especial{color: yellow;}/* queda este porque es el ultimo osea es una cascada esquismi */
+#super-especial{color: rgb(18, 18, 18);}
