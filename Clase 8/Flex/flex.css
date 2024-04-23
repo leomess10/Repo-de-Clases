@@ -5,7 +5,9 @@
     font-family: sans-serif;
 }
 
-.padre{ background-color: green;
+.padre{ 
+
+    background-color: green;
     height: 100vh; /* vh es viewport height 100 es totalidad de la pantalla */
     width: 100vw; /* lo mismo a lo ancho */
     display: flex; /* activar flex box */
@@ -14,7 +16,10 @@
     gap: 50px; /* distancia entre cajas */
     /* row-gap y column-gap para hacerlo por separado */
     flex-wrap: wrap; /* mantiene su dimension que le di */
-    
+    /* en filas row asi como sigue abajo */
+    justify-content: space-around; /* entra en eje x */
+    align-items: center; /* centra en eje y  */
+
 
 
 
