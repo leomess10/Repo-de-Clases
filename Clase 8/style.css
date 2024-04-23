@@ -1,0 +1,44 @@
+/* Normalizacion */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    background-color: rgb(125, 125, 192);
+    margin: 0;
+}
+
+
+.caja{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 10px;
+    /* border: 3px solid red; */
+    color: antiquewhite;
+    padding-left: 20px;
+    box-sizing: border-box; /* con esto se calcula el alto y largo de la caja a 200 y no se suman los bordes */
+    margin-left: 50px;
+    margin-top: 50px;
+    box-shadow: inset 0px 0px 10px 0px rgb(255, 255, 255),/* eje x eje y blur base color INSET SOMBRA HACIA ADENTRO */
+    0px 0px 10px 0px white; /* segunda sombra */
+
+}
+input{margin-top: 50px;
+    margin-left: 50px;
+    border: none;
+    box-shadow: 0px 2px 3px 0px black;
+    padding: 5px 18px;
+    border-radius: 2px;
+/* pagina Neumorphism.io para generar sombras */
+}
+h1{
+    color: rgb(94, 8, 8);
+    font-family: sans-serif;
+    -webkit-text-stroke-color: 10px rgb(247, 240, 240);
+}
+
+ul{ padding: 20px;}
+li{list-style-type: none;}

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.padre{ background-color: green;
+    height: 100vh; /* vh es viewport height 100 es totalidad de la pantalla */
+    width: 100vw; /* lo mismo a lo ancho */
+    display: flex; /* activar flex box */
+   /*  flex-direction: row;
+    flex-direction: row;  esto esta por defecto*/
+    gap: 50px; /* distancia entre cajas */
+    /* row-gap y column-gap para hacerlo por separado */
+    flex-wrap: wrap; /* mantiene su dimension que le di */
+    
+
+
+
+
+
+}
+
+.padre .hijo{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    /* display: inline-block;  poner una al lado del otro  */
+
+}
+.padre .especial{
+    background-color: red;
+}
