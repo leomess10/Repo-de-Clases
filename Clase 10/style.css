@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.padre{
+    width: 500vw;
+    height: 500vh;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 200px;
+    position: relative;
+
+}
+
+.hijo{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border: 1px solid red;
+}
+.hijo:nth-child(1){
+    background-color: red;
+    
+}
+.hijo:nth-child(2){
+    background-color: blue;
+    position: fixed; /* absolute desde el 0,0 de la pagina del body o si el padre tiene un position relative; relative es desde su posicion */
+    /* fixed queda pegado */
+    bottom: 20px;
+    left: 200px;
+
+}
+.hijo:nth-child(3){
+    background-color: yellow;
+    z-index: 2;
+}
+.buscador-contenedor{
+    position: relative;
+    width: 300px;
+}
+.buscador-contenedor input{
+    width: 100%;
+}
+
+.buscador-contenedor .lupita{
+    width: 50px;
+    height: 50px;
+    border-color: red;
+    border-radius: 100%;
+    position: absolute;
+    top: 10px;
+    
+    
+}
