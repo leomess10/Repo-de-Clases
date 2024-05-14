@@ -56,9 +56,9 @@ Valor implicito en undefined? Si
 
 CONST
 Tiene hoisting? no
-Se puede reasignar? no
+Se puede reasignar? no pero dentro del bloque si
 Se puede redeclarar? no pero si si hay un bloque
-Valor implicito en undefined? si
+Valor implicito en undefined? no
  */
 
 {

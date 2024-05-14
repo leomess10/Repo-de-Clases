@@ -63,3 +63,7 @@ siempre devuelven booleanos
 
 typeof() tipo de dato
 isNaN() devuelve booleano si es NaN o no*/
+
+
+
+
